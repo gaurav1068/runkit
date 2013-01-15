@@ -20,7 +20,7 @@
 /* $Id$ */
 
 #include "php_runkit.h"
-
+#define ZEND_ACC_CALL_VIA_HANDLER           0x200000 /* fn_flags */
 #ifdef PHP_RUNKIT_MANIPULATION
 /* {{{ php_runkit_check_call_stack
  */
